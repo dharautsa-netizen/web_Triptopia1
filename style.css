@@ -1,0 +1,416 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/* menu sec */
+.logo-name
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: "My Soul", cursive;
+    font-weight: bolder;
+    color: #320A6B;
+
+}
+.icons
+{
+    height: 85px;
+    display: flex;
+    align-items: center; 
+     justify-content: space-evenly; 
+    background-color:#0F828C; 
+     box-shadow: 0px 0px 5px ; 
+
+    
+}
+.map
+{
+    /* display: flex; */
+    font-size: 20px ;
+    margin: 30px;
+}
+.map-icon
+{
+    padding-right: 8px;
+color: rgb(6, 59, 93);
+font-size: 30px;
+margin-left: 5px;
+}
+.map-address
+{
+    font-weight: bold;
+    color: #320A6B;
+    
+}
+.profile
+{
+    /* display: flex; */
+    font-size: 20px ;
+    margin: 10px;
+}
+.profile-icon
+{
+    padding-right: 8px;
+color: rgb(6, 59, 93);
+font-size: 30px;
+margin-left: 5px;
+}
+.profile-address
+{
+    font-weight: bold;
+    color: #320A6B;
+    
+}
+.language
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+.lang-add
+{
+    margin-left: 1px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #320A6B;
+}
+.lang-icon
+{
+    font-size: 25px;
+    color: rgb(6, 59, 93);
+}
+.h5
+{
+    color: #320A6B;
+}
+.head
+{
+    text-align: center;
+    color: #320A6B;
+    font-size:35px ;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+/* carousel */
+.carousel-msg
+{
+    font-size: 18px;
+    color: white;
+}
+ /**cards**/
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.card
+{
+    background-color: white;
+    margin: 20px;
+    height: 650px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px;
+    width: 370px;
+}
+.img
+{
+    height: 400px;
+    margin-bottom: 10px;
+    border-radius: 15px 15px 0 0;
+    background-color: aqua;
+    background-size: cover;
+}
+.p1
+{
+    background-image: url('./img/singapore.jpg');
+}
+.p2
+{
+    background-image: url('./img/thailand.jpg');
+}
+.p3
+{
+    background-image: url('./img/dubai.jpg');
+}
+.p4
+{
+    background-image: url('./img/cambodia.jpg');
+}
+.p5
+{
+    background-image: url('./img/bhutan.jpg');
+}
+.p6
+{
+    background-image: url('./img/turkey.jpg');
+}
+.card h3
+{
+    padding: 5px;
+    font-size: 32px;
+    color: #320A6B;
+}
+.card p
+{
+ font-size: 12px;   
+padding: 5px;
+margin-bottom: 5px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: black;
+}
+.card a
+{
+color: white;
+background-color:#065084 ;
+display: block;
+text-align: center;
+font-size: 24px;
+text-decoration: none;
+margin: 25px 45px;
+padding: 5px;
+}
+.card:hover{
+    background-color:#6fb3b9;
+    color: white;
+}
+.sub-title
+{
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+    color: #320A6B;
+    margin-top: 15px;
+    margin-left: px;
+}
+h1
+{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+   
+}
+h3
+{
+    font-size: 30px;
+    font-weight: bold;
+   text-align: center;
+   color: white; 
+   background-color:rgba(0,0,0,0.407) ;
+    
+}
+/* travel guide */
+.guide
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box
+{
+    background-color: white;
+    margin-right: 35px;
+    height: 190px;
+    width: 290px;
+    margin-bottom: 120px;
+}
+.pic
+{
+    height: 190px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    background-size: cover;
+}
+h2
+{
+font-size: 20px;
+color: black;
+}
+.b1
+{
+    background-image: url("./img/Egypt.jpg");
+}
+.b2
+{
+    background-image: url("./img/bali.jpg");
+}
+.b3
+{
+    background-image: url("./img/japan.jpg");
+}
+.b4
+{
+    background-image:url("./img/peru.jpg") ;
+}
+.b5
+{
+    background-image: url("./img/jordan.jpg");
+}
+.b6
+{
+    background-image: url(./img/indonesia.jpg);
+}
+.b7
+{
+    background-image: url(./img/hawaii.jpg);
+}
+.b8
+{
+    background-image: url("./img/china.jpg");
+}
+/* why we */
+.whywe-head
+{
+     font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+     background-color:rgba(0,0,0,0.407) ;
+     color: black;
+   
+}
+.review-sec
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.review-box
+{
+     background-color: white;
+    margin-right: 35px;
+    height: 250px;
+    width: 350px;
+    margin-bottom: 120px;
+}
+.rev
+{
+    height: 250px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    background-size: cover;
+
+}
+.r1
+{
+    background-image: url("./img/r1.jpg");
+}
+.r2
+{
+    background-image: url("./img/r2.jpg");
+}
+.r3
+{
+    background-image: url("./img/r3.jpg");
+}
+.r4
+{
+    background-image: url("./img/r4.jpg");
+}
+.r5
+{
+    background-image: url("./img/r5.jpg");
+}
+.r6
+{
+    background-image: url("./img/r6.jpg");
+}
+/* footer */
+.footer
+{
+    margin-top: 15px;
+}
+.foot-panel1
+{
+    background-color: rgba(0,0,0,0.407) ;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.foot-panel2
+{
+    background-color: #0F828C;
+    color: white;
+    height: 580px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+
+}
+ul
+{
+  margin-top: 20px;
+}
+ul a
+{
+   display: block;
+   font-size: 15px;
+   margin-top: 10px;
+   background-color: #6fb3b9;
+
+}
+.foot-name
+{
+    font-family: "My Soul", cursive;
+    font-weight: bolder;
+    color: #320A6B;
+    font-size: 25px;
+   
+    
+}
+.foot-panel3
+{
+     border-top: 0.5px solid white;
+     background-color: #6fb3b9;
+     height: 40px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+    
+}
+.findus
+{
+    font-size: 20px;
+    justify-content: space-between;
+}
+.foot-panel4
+{
+    background-color: #6fb3b9;
+    color: black;
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-top: 0.5px solid white;
+}
+ .pages
+{
+font-size: 18px;
+text-align: center;
+}
+.copyright
+{
+font-size: 18px;
+text-align: center;
+ background-color: #6fb3b9;
+    color: black;
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+} 
