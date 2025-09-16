@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Bootstrap Css start -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <!-- Bootstrap Css End -->
+
+
+ <!-- FontAwesome Css Start -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- FontAwesome Css End -->
+
+<!-- GoogleFont Css Start -->
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=My+Soul&family=Nata+Sans:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+</style>
+ <!-- GoogleFont Css End -->
+
+    <!-- Own Css Start -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Own Css End -->
+    <title>TripTopia</title>
+</head>
+<body>
+
+
+  <!-- Logo name -->
+   <div class="logo-name"> TripTopia</div>
+<!-- menu sec -->
+  <div class="icons">
+    <!-- 1st part -->
+  <div class="map">
+    <div class="map-icon"><i class="fa-solid fa-globe"></i></div>
+<div class="map-address">Map</div>
+  </div>
+
+  <!-- 2nd part -->
+   <div class="profile">
+    <div class="profile-icon"><i class="fa-solid fa-user"></i></div>
+    <div class="profile-address">Profile</div>
+   </div>
+
+  <!-- 3rd part -->
+   <div class="language">
+           <div class="lang-icon"> <i class="fa-solid fa-flag"></i></div> 
+            <select class="lang-add">
+              <option>ENG</option>
+              <option>বাংলা</option>
+              <option>हिंदी</option>
+              <option>français</option>
+              <option>عربي</option>
+              <option>中国人</option>
+              <option>日本語</option>
+              <option>اردو</option>
+              <option>한국인</option>
+              <option>Русский</option>
+            </select>
+        </div>
+
+
+ </div>   
+  </div>
+
+<!-- navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Offers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Flights</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Guides
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">City Guide</a></li>
+            <li><a class="dropdown-item" href="#">Country Guide</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Others</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About Us</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Take Me To" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- carousel -->
+  
+<!-- carousel msg -->
+ <div class="head">
+Popular Tourist Spots In India
+ <div>
+
+ <!-- carousel slide -->
+ <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/kolkata.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Visit Kolkata In This Durga Puja</h5>
+        <p class="carousel-msg">Kolkata's colonial architecture, a testament to its role as the British colonial capital, features British influence through neoclassical, Gothic, and Victorian styles. Iconic buildings like the Victoria Memorial, Writers' Building, Howrah Bridge, St. Paul's Cathedral, Indian Museum etc.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./img/jaipur, udaipur.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Explore Jaipur In This Winter</h5>
+        <p  class="carousel-msg">Udaipur is special for its beautiful City Palaces, scenic lakes like Lake Pichola, and its romantic ambiance, earning it nicknames like the "White City" and the "Venice of the East". </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./img/andaman.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>The Andaman and Nicobar Islands is a union territory of India </h5>
+        <p  class="carousel-msg">The territory includes the famous Barren Island, which is home to India's only active volcano. The islands offer numerous attractions, including diverse coral reefs, vibrant marine life, and opportunities for adventure sports, making them a popular holiday and honeymoon destination. </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- card sec -->
+<div class="head">International Holiday Pacakages </div>
+
+  
+<section class="container">
+  <!-- 1st img -->
+  <div class="card">  
+        <div class=" img p1"></div>
+    <h3> Singapore</h3>
+    <p>A non-stop, five-hour flight to Singapore from Bengaluru will cost you between INR 15,000 and INR 17,000 depending upon the season and airlines. The sunny little island can make a perfect destination for a winter vacation, as July to December is the best time to experience its winters. Check out the rooftop bars in the city like Levant, 1-Arden, etc. that offer the best views of the skyline. Depending on the class, the cost of accommodation starts from INR 4,000. </p>
+    <a herf="">Book Now</a>
+          </div>
+     <!-- 2nd img -->
+        <div class="card">  
+        <div class=" img p2"></div>
+    <h3> Krabi, Thailand</h3>
+    <p>One of the popular honeymoon and beach destinations, this is an excellent budget getaway for winters. Since Krabi experiences rainfall till October, the months from November to March are the perfect time to visit this place. The flights from India start at INR 25,000. One can get a decent accommodation for as low as INR 3,000. Experience the scenic, pristine beaches and the thumping nightlife of Krabi.</p>
+    <a herf="">Book Now</a>
+          </div>
+          <!-- 3rd img -->
+<div class="card">  
+        <div class=" img p3"></div>
+    <h3> Dubai, UAE</h3>
+    <p>The best time to visit this tourist jewel is from October to April. The flight tickets to Dubai begin from INR 13,000, and one can get fairly reasonable accommodation starting from INR 5,000. Apart from exploring the Dubai Marina and Burj Khalifa, one can also enjoy Dubai’s desert safaris when the heat is not scorching. One can save money on taxis by exploring the city on the recently invested rental bike scheme. </p>
+    <a herf="">Book Now</a>
+          </div>
+          <!-- 4th img -->
+      <div class="card">  
+        <div class=" img p4"></div>
+    <h3>Cambodia </h3>
+    <p>  Create an itinerary to visit the colossal temple city of Cambodia, Angkor Wat or the nature-filled reprieve of Ratanakiri this winter. Being one of the cheapest foreign destinations from India, the best time to visit Cambodia is from November to April. The cost of air tickets starts from INR 25,000. The approximate cost of taking a week-long trip to Cambodia will begin from INR 45,000.  </p>
+    <a herf="">Book Now</a>
+          </div>
+<!-- 5th img -->
+          <div class="card">  
+        <div class=" img p5"></div>
+    <h3>Bhutan</h3>
+    <p>October to December is the ideal time to visit Bhutan. If you wish to see the rare black-necked cranes, you can visit Phobjikha Valley from November to mid-February. Offering scenic, pristine wonders, the country is also called the ‘Land of the Thunder Dragons’. A week-long trip to Bhutan, including airfare, will cost you around INR 35,000.  </p>
+    <a herf="">Book Now</a>
+          </div>
+          <!-- 6th img -->
+          <div class="card">  
+        <div class=" img p6"></div>
+    <h3>Istanbul, Turkey </h3>
+    <p>Although Istanbul is the tourist gem of Turkey, but its real capital, Ankara, is absolutely worth a visit. The cost of flights to Istanbul starts from INR 25,000. The best time to visit is from September to December. You can also take a road trip in Turkey to explore its hidden gems like Alacati, the natural pools of Pamukkale, the Nemrut Dagi Mountain, Cappadocia or the Sumela Monastery in Macka.  </p>
+    <a herf="">Book Now</a>
+          </div>
+</section>
+
+<!-- guides -->
+ <!-- guide head -->
+ <h1>Travel Guides</h1>
+ <h3>Popular travel blog posts & guides</h3>
+   <section class="guide">
+    <!-- 1st box -->
+    <div class="box">
+      <div class="pic b1"></div>
+      <h2>HOW TO VISIT THE PYRAMIDS IN EGYPT</h2>
+    </div>
+<!-- 2nd box -->
+    <div class="box">
+      <div class="pic b2"></div>
+      <h2>NUSA PENIDA ISLAND GUIDE FOR BALI</h2>
+    </div>
+<!-- 3rd box -->
+    <div class="box">
+      <div class="pic b3"></div>
+      <h2>22 BEST THINGS TO DO IN JAPAN</h2>
+    </div>
+<!-- 4th box -->
+    <div class="box">
+      <div class="pic b4"></div>
+      <h2>10 THINGS TO DO AT MACHU PICCHU IN PERU</h2>
+    </div>
+<!-- 5th box -->
+    <div class="box">
+      <div class="pic b5"></div>
+      <h2>HOW TO VISIT PETRA IN JORDAN</h2>
+    </div>
+<!-- 6th box -->
+  <div class="box">
+      <div class="pic b6"></div>
+      <h2>19 BEST WATERFALLS IN INDONESIA</h2>
+    </div>
+<!-- 7th box -->
+    <div class="box">
+      <div class="pic b7"></div>
+      <h2>38 BEST THINGS TO DO IN OAHU HAWAII</h2>
+    </div>
+<!-- 8th box -->
+    <div class="box">
+      <div class="pic b8"></div>
+      <h2>HOW TO VISIT CHINA'S AVATAR MOUNTAINS</h2>
+    </div>
+   </section>
+
+   <!-- why we -->
+    <div class="whywe-head">What people are saying about TripTopia!</div>
+    <!-- review sec-->
+     <section class="review-sec">
+      <!--  1st rev -->
+      <div class="review-box">
+        <div class="rev r1"></div>
+      </div>
+<!-- 2nd rev -->
+      <div class="review-box">
+        <div class="rev r2"></div>
+      </div>
+<!-- 3rd rev -->
+      <div class="review-box">
+        <div class="rev r3"></div>
+      </div>
+<!-- 4th rev -->
+      <div class="review-box">
+        <div class="rev r4"></div>
+      </div>
+<!-- 5h rev -->
+      <div class="review-box">
+        <div class="rev r5"></div>
+      </div>
+<!-- 6th rev -->
+      <div class="review-box">
+        <div class="rev r6"></div>
+      </div>
+     </section>
+
+     <!-- footer -->
+      <footer>
+        <!-- 1st part -->
+        <div class="foot-panel1">Back To Top</div>
+
+        <!-- 2nd part -->
+         <div class="foot-panel2">
+          <ul>
+            <p>Get To Know Us</p>
+            <a>🌍 Who We Are</a>
+            <a>✈️ Our Mission</a>
+            <a>📖 What We Offer</a>
+            <a>🗺️ Why Choose Us</a>
+            <a>🤝 Our Promise</a>
+            <a>💬 Stay Connected</a>
+          </ul>
+
+          <ul>
+            <p>Make Money With Us</p>
+            <a>📝 Write for Us</a>
+            <a>📸 Sell Your Photos</a>
+            <a>🎥 Create Content With Us</a>
+            <a>💼 Advertise With Us</a>
+            <a>🏡 Promote Your Stays</a>
+            <a>🤝 Affiliate Partnerships</a>
+          </ul>
+
+          <ul>
+            <p>Let Us Help You</p>
+            <a>🔍 Plan Your Trip</a>
+            <a>💡 Get Travel Tips</a>
+            <a>🏨 Find the Best Stays</a>
+            <a>🚗 Explore Transport Options</a>
+            <a>🍴 Discover Local Food</a>
+            <a>📞 Ask for Support</a>
+          </ul>
+         </div>
+<!-- 3rd part -->
+         <div class="foot-panel3">
+          <div class="foot-name">TripTopia</div>
+          <!-- icons -->
+           <div class="findus">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-pinterest"></i>
+           </div>
+         </div>
+<!-- 4th part -->
+         <div class="foot-panel4">
+          <div class="pages">
+         info@triptopiaa20.com
+           +91-9212777225 (Only for Whatsapp)
+         </div>
+         </div>
+         <div class="copyright">© 2025 Explore Beyond, Stay Inspired.</div>
+      </footer>
+ 
+
+
+
+
+<!-- bootstrap js start -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <!-- bootstrap js end -->
+</body>
+</html>
